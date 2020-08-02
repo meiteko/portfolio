@@ -1,0 +1,90 @@
+.MuiTabs-flexContainer-176 {
+  padding: 0 1%;
+}
+
+.react-swipeable-view-container {
+  padding: 0;
+}
+
+.react-swipeable-view-container ul {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.react-swipeable-view-container ul li {
+  min-height: 92px;
+  cursor: pointer;
+  width: 24%;
+  margin: 0 0.5% 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+  .react-swipeable-view-container ul li {
+    width: 32.33%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .react-swipeable-view-container ul li {
+    width: 49%;
+  }
+}
+
+.article_area {
+  display: flex;
+}
+.article_area ul li > a {
+  width: 100%;
+}
+
+.article_image_box {
+  overflow: hidden;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 4px;
+  height: 118px;
+  position: relative;
+}
+
+.article_image_box:before {
+  box-shadow: 0 2px 2px rgba(0,0,0,.1);
+}
+
+.article_image_box img {
+  display: block;
+  height: 100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.article_info {
+  position: relative;
+  margin-left: 1%;
+  height: 2.65em;
+}
+
+.article_title {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.2;
+  height: 2.4em;
+}
+
+.media_site {
+  position: absolute;
+  bottom: 0px;
+  right: 4px;
+  font-size: 12px;
+  line-height: 1;
+  color: #57585d;
+}

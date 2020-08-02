@@ -1,0 +1,226 @@
+.ResponsiveDrawer-content-15 {
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.HOC-wrapper-172 {
+  position: relative;
+}
+
+.HOC-wrapper-172 > div {
+  min-height: 100%;
+}
+
+.CategoryList li {
+  display: flex;
+  text-align: left;
+  min-height: 60px;
+}
+
+.CategoryForm {
+  margin-bottom: 10px;
+}
+
+.CategoryForm input {
+  padding: 6px 12px;
+  width: 70%;
+  max-width: 400px;
+  height: 1.2em;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.CategoryList {
+  width: 80%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.SortableHover {
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+/* ホバーさせた時 */
+.CategoryList li {
+  position: relative;
+  margin: 0 auto 6px;
+  padding-right: 46px;
+  box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.HOC-wrapper-330 .CategoryList li {
+  cursor: url(https://ssl.gstatic.com/ui/v1/icons/mail/images/2/openhand.cur), default !important;
+}
+
+.CategoryList li label {
+  display: flex;
+  margin-bottom: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.CategoryList li img {
+  border-radius: 8px;
+}
+
+.sortableHelper:hover {
+  cursor: url(https://ssl.gstatic.com/ui/v1/icons/mail/images/2/openhand.cur), default !important;
+}
+
+.sortableHelper:active {
+  cursor: url(https://ssl.gstatic.com/ui/v1/icons/mail/images/2/openhand.cur), default !important;
+}
+
+.category_image {
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.category_drag_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 8px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  color: #655f5f;
+  cursor: pointer;
+}
+
+.category_drag_area .fa-arrows-alt-v {
+  font-size: 20px;
+}
+
+.sortableHelper {
+  z-index: 10!important;
+  position: relative;
+  text-align: left;
+  list-style-type: none;
+  display: flex;
+  font-size: 16px;
+  margin: 0 auto 6px;
+  cursor: url(https://ssl.gstatic.com/ui/v1/icons/mail/images/2/openhand.cur), default !important;
+}
+
+.sortableHelper {
+
+}
+
+.sortableHelper .category_image  {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.checkbox {
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+  position: relative;
+  display: inline-block;
+  padding: 12px 12px 12px 42px;
+  border-radius: 8px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.checkbox:hover:after {
+  border-color: #53b300;
+}
+.checkbox:after {
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  display: block;
+  margin-top: -10px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #bbb;
+  border-radius: 6px;
+  content: '';
+}
+
+.checkbox:before {
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  display: block;
+  margin-top: -7px;
+  width: 5px;
+  height: 9px;
+  border-right: 3px solid #53b300;
+  border-bottom: 3px solid #53b300;
+  content: '';
+  opacity: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input[type=checkbox]:checked + .checkbox:before {
+  opacity: 1;
+}
+.ResponsiveDrawer-content-15 {
+  padding: 0!important;
+  padding-top: 62px!important;
+}
+.layer {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  padding-top: 70px;
+  margin-top: -70px;
+  background-color: rgba(40,40,40,0.8);
+  z-index: 22222;
+}
+.MuiSvgIcon-root-65 {
+  font-size: 27px;
+}
+.toTrash,.toDrag {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  border: 2px solid #2d2a2a;
+  border-radius: 6px;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px;
+  color: #2d2a2a;
+}
+.toTrash svg,
+.toDrag svg {
+  width: 19px;
+}
+
+@media screen and (max-width:480px) {
+  .CategoryList {
+    width: 100%;
+    max-width: inherit;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+}
+
+.CategoryForm input {
+  min-height: 26px;
+}

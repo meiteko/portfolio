@@ -1,0 +1,374 @@
+[33m[nodemon] 2.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node gamelist.js`[39m
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at fs.read (internal/fs/streams.js:167:12)
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:478:5)
+[33m[nodemon] 2.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node gamelist.js`[39m
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at fs.read (internal/fs/streams.js:167:12)
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:478:5)
+sql fired!!
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::40012
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/react/gamewalk/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/react/gamewalk/sql/gamelist.js:8:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1286:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+    at process.runNextTicks [as _tickCallback] (internal/process/task_queues.js:56:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:880:11)
+    at internal/main/run_main_module.js:21:11
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/gamelist.js - Not found
+npm ERR! 404 
+npm ERR! 404  'gamelist.js@latest' is not in the npm registry.
+npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-11-24T07_30_28_351Z-debug.log
+コードgamelist.js@latestで1のインストールに失敗しました
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /root/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.13.1 /usr/lib/node_modules/npm
+
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/gamelist.js - Not found
+npm ERR! 404 
+npm ERR! 404  'gamelist.js@latest' is not in the npm registry.
+npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-11-24T09_48_30_770Z-debug.log
+コードgamelist.js@latestで1のインストールに失敗しました
+sql fired!!
+/root/react/gamewalk/sql/gamelist.js:26
+    if (error) throw error;
+               ^
+
+Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/root/react/gamewalk/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/root/react/gamewalk/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/root/react/gamewalk/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/root/react/gamewalk/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/root/react/gamewalk/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/root/react/gamewalk/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/root/react/gamewalk/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/root/react/gamewalk/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/root/react/gamewalk/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/root/react/gamewalk/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/root/react/gamewalk/node_modules/mysql/lib/Connection.js:119:18)
+    at Connection._implyConnect (/root/react/gamewalk/node_modules/mysql/lib/Connection.js:457:10)
+    at Connection.query (/root/react/gamewalk/node_modules/mysql/lib/Connection.js:199:8)
+    at /root/react/gamewalk/sql/gamelist.js:21:14
+    at Layer.handle [as handle_request] (/root/react/gamewalk/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/react/gamewalk/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/react/gamewalk/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/react/gamewalk/node_modules/express/lib/router/layer.js:95:5)
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::40012
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/react/gamewalk/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/react/gamewalk/sql/gamelist.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1286:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+    at process.runNextTicks [as _tickCallback] (internal/process/task_queues.js:56:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:880:11)
+    at internal/main/run_main_module.js:21:11
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::40012
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/react/gamewalk/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/react/gamewalk/sql/gamelist.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1286:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+    at process.runNextTicks [as _tickCallback] (internal/process/task_queues.js:56:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:880:11)
+    at internal/main/run_main_module.js:21:11
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::40012
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/react/gamewalk/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/react/gamewalk/sql/gamelist.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1286:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+    at process.runNextTicks [as _tickCallback] (internal/process/task_queues.js:56:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:880:11)
+    at internal/main/run_main_module.js:21:11
+sql fired!!
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::40012
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/react/gamewalk/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/react/gamewalk/sql/gamelist.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1286:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+    at process.runNextTicks [as _tickCallback] (internal/process/task_queues.js:56:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:880:11)
+    at internal/main/run_main_module.js:21:11
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::40012
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/react/gamewalk/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/react/gamewalk/sql/gamelist.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1286:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+    at process.runNextTicks [as _tickCallback] (internal/process/task_queues.js:56:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:880:11)
+    at internal/main/run_main_module.js:21:11
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::40012
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/react/gamewalk/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/react/gamewalk/sql/gamelist.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1286:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+    at process.runNextTicks [as _tickCallback] (internal/process/task_queues.js:56:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:880:11)
+    at internal/main/run_main_module.js:21:11
+sql fired!!
+/root/react/gamewalk/sql/gamelist.js:35
+    if (error) throw error;
+               ^
+
+Error: getaddrinfo ENOTFOUND http://133.130.91.68/ http://133.130.91.68/:3306
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:58:26)
+    --------------------
+    at Protocol._enqueue (/root/react/gamewalk/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/root/react/gamewalk/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/root/react/gamewalk/node_modules/mysql/lib/Connection.js:119:18)
+    at Connection._implyConnect (/root/react/gamewalk/node_modules/mysql/lib/Connection.js:457:10)
+    at Connection.query (/root/react/gamewalk/node_modules/mysql/lib/Connection.js:199:8)
+    at /root/react/gamewalk/sql/gamelist.js:30:14
+    at Layer.handle [as handle_request] (/root/react/gamewalk/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/react/gamewalk/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/react/gamewalk/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/react/gamewalk/node_modules/express/lib/router/layer.js:95:5)
+[33m[nodemon] 2.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node gamelist.js`[39m
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at fs.read (internal/fs/streams.js:167:12)
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:478:5)
+[33m[nodemon] 2.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node gamelist.js`[39m
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at fs.read (internal/fs/streams.js:167:12)
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:478:5)
+2019/12/13 16時42分00秒
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:15)
+    at endReadableNT (_stream_readable.js:1139:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:426:8)
+    at Protocol.emit (events.js:193:13)
+    at Protocol._delegateError (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.end (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:97:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+2019/12/14 10時36分01秒
+2019/12/15 08時38分36秒
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:15)
+    at endReadableNT (_stream_readable.js:1139:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:426:8)
+    at Protocol.emit (events.js:193:13)
+    at Protocol._delegateError (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.end (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:97:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+2019/12/15 18時17分37秒
+2019/12/20 11時32分34秒
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:15)
+    at endReadableNT (_stream_readable.js:1139:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:426:8)
+    at Protocol.emit (events.js:193:13)
+    at Protocol._delegateError (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.end (/root/react/gamewalk/src/sql/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+    at Socket.<anonymous> (/root/react/gamewalk/src/sql/node_modules/mysql/lib/Connection.js:97:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+2020/02/24 11時44分21秒
+[33m[nodemon] 2.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node gamelist.js`[39m
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event at:
+    at fs.read (internal/fs/streams.js:167:12)
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:478:5)
